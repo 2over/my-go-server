@@ -4,7 +4,7 @@ import "fmt"
 
 var count int
 
-var done = make(chan bool, 100)
+var done = make(chan bool, 1)
 
 func sayDoneNew(index int) {
 	done <- true
