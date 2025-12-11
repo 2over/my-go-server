@@ -19,6 +19,7 @@ func waitUntilAllDoneNew(done chan bool, count int) {
 }
 func main() {
 	fmt.Println("start....")
+	fmt.Println("hello world")
 	for i := 0; i < 5; i++ {
 		count++
 
